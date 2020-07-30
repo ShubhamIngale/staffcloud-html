@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{var timeLeft=10;var downloadTimer=setInterval(()=>{if(timeLeft<=0){clearInterval(downloadTimer);document.querySelector('.number').innerText='0';} else{document.querySelector('.number').innerText=timeLeft;} timeLeft-=1;},1000);setTimeout(()=>window.location.href="https://staffcloud.net",10000);});
